@@ -46,7 +46,7 @@ def main(wf):
         data = results['suggestions']
         wf.cache_data('uib_'+cmd+'_'+args, data)
         results = data
-    data = result
+    data = results
     if data:
         for unit in data:
             title = wf.decode(unit)
